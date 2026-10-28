@@ -27,7 +27,7 @@ Importante: o link exato do Kaggle não está identificado no notebook disponibi
 
 
 
-  - Descrição das Colunas:
+  ### Descrição das Colunas:
 
 -> address
 Endereço do imóvel
@@ -55,34 +55,38 @@ Valor total informado, incluindo aluguel e demais custos
 
 
 
-  - Foram utilizadas as seguintes ferramentas:
+  ### Foram utilizadas as seguintes ferramentas:
 
-**Python:** linguagem de programação utilizada na análise.
+- **Python:** linguagem de programação utilizada na análise.
 
-**Pandas:** leitura, organização, limpeza e agrupamento dos dados.
+- **Pandas:** leitura, organização, limpeza e agrupamento dos dados.
 
-**NumPy:** biblioteca de apoio para operações numéricas.
+- **NumPy:** biblioteca de apoio para operações numéricas.
 
-**Matplotlib:** criação de gráficos para visualização dos resultados.
+- **Matplotlib:** criação de gráficos para visualização dos resultados.
 
-**Jupyter Notebook ou Google Colab:** ambiente para executar o código e apresentar a análise.
+- **Jupyter Notebook ou Google Colab:** ambiente para executar o código e apresentar a análise.
 
-**GitHub:** plataforma sugerida para armazenar e compartilhar o projeto.
+- **GitHub:** plataforma sugerida para armazenar e compartilhar o projeto.
 
 
-  - Como executar de forma correta para visualizar o projeto <-
+ ### Como executar de forma correta para visualizar o projeto 
 
 1. Acesse o Google Colab.
+
 2. Envie o notebook Synapta_Projeto.ipynb.
-3.Baixe o arquivo data.csv do Kaggle e envie-o ao Colab.
-4.Execute as células do notebook na ordem.
-5.Visualize os gráficos, as estatísticas e as conclusões da análise.
+
+3. Baixe o arquivo data.csv do Kaggle e envie-o ao Colab.
+
+4. Execute as células do notebook na ordem.
+
+5. Visualize os gráficos, as estatísticas e as conclusões da análise.
 
 Para executar localmente, instale as dependências com **pip install -r requirements.txt**, abra o notebook no Jupyter e execute as células.
 Observação: o arquivo **data.csv** deve estar no caminho indicado pelo código.
 
 
-  - A preparação dos dados foi realizada antes dos cálculos e da criação dos gráficos.
+   ### A preparação dos dados foi realizada antes dos cálculos e da criação dos gráficos:
 
 **Carregamento:** leitura do arquivo data.csv utilizando Pandas.
 **Inspeção inicial:** verificação das colunas, quantidade de registros e tipos de dados.
@@ -99,7 +103,7 @@ As transformações foram realizadas diretamente no DataFrame utilizado pela an�
 A limpeza e preparação de dados de forma resumida foi: Verificação de valores ausentes, remoção de endereços duplicados, exclusão de imóveis com área inválida (menor ou igual a zero) e remoção de aluguéis acima de R$ 15.000. Em seguida, os dados foram organizados para calcular estatísticas, comparar bairros e analisar correlações entre as variáveis.
 
 
-  - Principais Conclusões: 
+   ### Principais Conclusões: 
 
 1. **A diferença entre a Média e a Mediana:** O preço médio dos aluguéis foi de aproximadamente 3.028,34, enquanto a mediana foi de 2.250,00. Isso indica que os aluguéis mais elevados aumentam a média.
 
@@ -113,7 +117,7 @@ A limpeza e preparação de dados de forma resumida foi: Verificação de valore
 
 
 
-  - Algumas limitações da análise:
+  ### Algumas limitações da análise:
 
 1. **Ausência de informações:** O conjunto de dados não apresenta todos os fatores que podem influenciar o aluguel, como: ***estado de conservação do imóvel, mobiliário, condomínio e proximidade de serviços.***
 
@@ -129,3 +133,21 @@ A limpeza e preparação de dados de forma resumida foi: Verificação de valore
 
 
 Houve a utilização de IA inteligência Artificial Generativa somente para formulação de perguntas sobre o código, escrita e pesquisa relacionadas a conclusões e limitação de análise.
+
+
+
+  ### Imagens de alguns gráficos utilizados no código:
+
+<div align="center">
+<img width="600" height="456" alt="Image" src="https://github.com/user-attachments/assets/091df723-dc24-469c-bdd6-67268377be25" />
+</div>  
+
+
+<div align="center">
+<img width="578" height="541" alt="Image" src="https://github.com/user-attachments/assets/abffc3dd-7dfe-4ae2-9db9-ce7eeef2fd1e" />
+</div>
+
+
+<div align="center">
+<img width="576" height="566" alt="Image" src="https://github.com/user-attachments/assets/524079fb-82dd-4df5-846c-48e9386c87a1" />
+</div>
