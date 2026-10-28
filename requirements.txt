@@ -1,9 +1,0 @@
-Bibliotecas utilizadas no notebook:
-
-1. pandas 
-2. numpy 
-3. matplotlib
-
-Baixando o arquivo basta executar esse comando: 
-
-pip install -r requirements.txt
