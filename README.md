@@ -142,10 +142,6 @@ A limpeza e preparação de dados de forma resumida foi: Verificação de valore
 6. **Correlação não significa causalidade:** Embora a área tenha apresentado correlação positiva com o aluguel, isso não significa que ela seja a única responsável pelo aumento dos preços.
 
 
-Houve a utilização de IA inteligência Artificial Generativa somente para formulação de perguntas sobre o código, escrita e pesquisa relacionadas a conclusões e limitação de análise.
-
-
-
   #### Imagens de alguns gráficos utilizados no código:
 
 <div align="center">
@@ -168,3 +164,6 @@ Houve a utilização de IA inteligência Artificial Generativa somente para form
 
 Quais fatores aparecem associados às maiores pontuações de felicidade e quais
 cuidados devem ser tomados ao interpretar essa relação?
+
+
+## Houve a utilização de IA inteligência Artificial Generativa somente para formulação de perguntas sobre o código, escrita e pesquisa relacionadas a conclusões e limitação de análise.
