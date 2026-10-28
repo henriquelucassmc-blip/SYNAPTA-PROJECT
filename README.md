@@ -1,23 +1,32 @@
 # SYNAPTA-PROJECT
 
 -> Candidato: Lucas Henrique Clemente Santos
+
 -> Etapa 1 do Projeto de Extensão SYNAPTA 
+
 -> Linguagem: Python
 
+
+
 Este projeto tem como objetivo analisar os preços de aluguéis de imóveis na cidade de São Paulo, buscando identificar características que estejam relacionadas aos valores cobrados, diferenças entre bairros e padrões presentes nos dados.
+
 
 Pergunta que orientou a análise: **Quais características parecem acompanhar os maiores e os menores preços de aluguel e o que os dados não permitem concluir?**
 
 
 O projeto utiliza um conjunto de dados sobre preços de aluguéis de imóveis em São Paulo, armazenado no arquivo data.csv.
 
+
 Plataforma: Kaggle
 Dataset: Preços de aluguéis em São Paulo
 Link: [https://www.kaggle.com/datasets/renatosn/sao-paulo-housing-prices]
 Arquivo utilizado: data.csv
 
+
 O conjunto de dados original contém 11.657 registros e oito colunas.
 Importante: o link exato do Kaggle não está identificado no notebook disponibilizado e precisa ser confirmado antes da publicação.
+
+
 
 
 Descrição das Colunas:
@@ -47,6 +56,7 @@ Valor mensal do aluguel
 Valor total informado, incluindo aluguel e demais custos
 
 
+
 -> Foram utilizadas as seguintes ferramentas:
 
 **Python:** linguagem de programação utilizada na análise.
@@ -62,6 +72,7 @@ Valor total informado, incluindo aluguel e demais custos
 **GitHub:** plataforma sugerida para armazenar e compartilhar o projeto.
 
 
+
 -> Como executar de forma correta para visualizar o projeto <-
 
 1. Acesse o Google Colab.
@@ -72,6 +83,7 @@ Valor total informado, incluindo aluguel e demais custos
 
 Para executar localmente, instale as dependências com **pip install -r requirements.txt**, abra o notebook no Jupyter e execute as células.
 Observação: o arquivo **data.csv** deve estar no caminho indicado pelo código.
+
 
 
 -> A preparação dos dados foi realizada antes dos cálculos e da criação dos gráficos.
@@ -88,7 +100,9 @@ Observação: o arquivo **data.csv** deve estar no caminho indicado pelo código
 As transformações foram realizadas diretamente no DataFrame utilizado pela análise. A quantidade final de registros deve ser consultada após a execução de todas as etapas.
 
 
+
 -> A limpeza e preparação de dados de forma resumida foi: Verificação de valores ausentes, remoção de endereços duplicados, exclusão de imóveis com área inválida (menor ou igual a zero) e remoção de aluguéis acima de R$ 15.000. Em seguida, os dados foram organizados para calcular estatísticas, comparar bairros e analisar correlações entre as variáveis.
+
 
 
 
@@ -106,6 +120,7 @@ As transformações foram realizadas diretamente no DataFrame utilizado pela an�
 
 
 
+
 -> Algumas limitações da análise:
 
 1. **Ausência de informações:** O conjunto de dados não apresenta todos os fatores que podem influenciar o aluguel, como: ***estado de conservação do imóvel, mobiliário, condomínio e proximidade de serviços.***
@@ -119,6 +134,7 @@ As transformações foram realizadas diretamente no DataFrame utilizado pela an�
 5. **Dados inconsistentes:** Foram identificados valores de área iguais a zero e registros com zero quartos, que precisam ser verificados para evitar distorções nos resultados.
 
 6. **Correlação não significa causalidade:** Embora a área tenha apresentado correlação positiva com o aluguel, isso não significa que ela seja a única responsável pelo aumento dos preços.
+
 
 
 Houve a utilização de IA inteligência Artificial Generativa somente para formulação de perguntas sobre o código, escrita e pesquisa relacionadas a conclusões e limitação de análise.
