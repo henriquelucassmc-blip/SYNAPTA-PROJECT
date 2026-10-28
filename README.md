@@ -8,6 +8,7 @@ Este projeto tem como objetivo analisar os preços de aluguéis de imóveis na c
 
 Pergunta que orientou a análise: **Quais características parecem acompanhar os maiores e os menores preços de aluguel e o que os dados não permitem concluir?**
 
+
 O projeto utiliza um conjunto de dados sobre preços de aluguéis de imóveis em São Paulo, armazenado no arquivo data.csv.
 
 Plataforma: Kaggle
@@ -17,6 +18,7 @@ Arquivo utilizado: data.csv
 
 O conjunto de dados original contém 11.657 registros e oito colunas.
 Importante: o link exato do Kaggle não está identificado no notebook disponibilizado e precisa ser confirmado antes da publicação.
+
 
 Descrição das Colunas:
 
@@ -59,7 +61,8 @@ Valor total informado, incluindo aluguel e demais custos
 
 **GitHub:** plataforma sugerida para armazenar e compartilhar o projeto.
 
--> Como executar de foram correta para visualizar o projeto <-
+
+-> Como executar de forma correta para visualizar o projeto <-
 
 1. Acesse o Google Colab.
 2. Envie o notebook Synapta_Projeto.ipynb.
@@ -84,7 +87,9 @@ Observação: o arquivo **data.csv** deve estar no caminho indicado pelo código
 
 As transformações foram realizadas diretamente no DataFrame utilizado pela análise. A quantidade final de registros deve ser consultada após a execução de todas as etapas.
 
+
 -> A limpeza e preparação de dados de forma resumida foi: Verificação de valores ausentes, remoção de endereços duplicados, exclusão de imóveis com área inválida (menor ou igual a zero) e remoção de aluguéis acima de R$ 15.000. Em seguida, os dados foram organizados para calcular estatísticas, comparar bairros e analisar correlações entre as variáveis.
+
 
 
 -> Principais Conclusões: 
@@ -98,6 +103,7 @@ As transformações foram realizadas diretamente no DataFrame utilizado pela an�
 4. **Bairros com maiores preços médios:** Entre as localidades analisadas com pelo menos 30 registros, Campo Belo apresentou o maior preço médio, de aproximadamente R$ 4.964,08 por mês.
 
 5. **Bairros com menores preõs médios:** Entre as localidades que atenderam ao mesmo critério, Liberdade apresentou o menor preço médio, de aproximadamente R$ 1.791,30 por mês. A diferença em relação a Campo Belo evidencia variações relevantes entre os bairros analisados.
+
 
 
 -> Algumas limitações da análise:
