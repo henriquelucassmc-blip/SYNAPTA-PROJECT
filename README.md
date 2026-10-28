@@ -33,29 +33,29 @@ Importante: o link exato do Kaggle não está identificado no notebook disponibi
 
   #### Descrição das Colunas:
 
--> address
-Endereço do imóvel
+-> address:
+ Endereço do imóvel
 
--> district
-Bairro ou localidade do imóvel
+-> district:
+ Bairro ou localidade do imóvel
 
--> area
-Área do imóvel
+-> area:
+ Área do imóvel
 
--> bedrooms
-Quantidade de quartos
+-> bedrooms:
+ Quantidade de quartos
 
--> garage
-Quantidade de vagas na garagem
+-> garage:
+ Quantidade de vagas na garagem
 
--> type
-Tipo de imóvel
+-> type:
+ Tipo de imóvel
 
--> rent
-Valor mensal do aluguel
+-> rent:
+ Valor mensal do aluguel
 
--> total
-Valor total informado, incluindo aluguel e demais custos
+-> total:
+ Valor total informado, incluindo aluguel e demais custos
 
 
 
