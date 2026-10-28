@@ -1,5 +1,6 @@
 # SYNAPTA-PROJECT
 
+
 - Candidato: Lucas Henrique Clemente Santos
 
 - Etapa 1 do Projeto de Extensão SYNAPTA 
@@ -7,19 +8,22 @@
 - Linguagem: Python
 
 
-Este projeto tem como objetivo analisar os preços de aluguéis de imóveis na cidade de São Paulo, buscando identificar características que estejam relacionadas aos valores cobrados, diferenças entre bairros e padrões presentes nos dados.
+### Este projeto tem como objetivo analisar os preços de aluguéis de imóveis na cidade de São Paulo, buscando identificar características que estejam relacionadas aos valores cobrados, diferenças entre bairros e padrões presentes nos dados.
 
 
-Pergunta que orientou a análise: **Quais características parecem acompanhar os maiores e os menores preços de aluguel e o que os dados não permitem concluir?**
+ Pergunta que orientou a análise: **Quais características parecem acompanhar os maiores e os menores preços de aluguel e o que os dados não permitem concluir?**
 
 
-O projeto utiliza um conjunto de dados sobre preços de aluguéis de imóveis em São Paulo, armazenado no arquivo data.csv.
+  ### O projeto utiliza um conjunto de dados sobre preços de aluguéis de imóveis em São Paulo, armazenado no arquivo data.csv:
 
 
-Plataforma: Kaggle
-Dataset: Preços de aluguéis em São Paulo
-Link: [https://www.kaggle.com/datasets/renatosn/sao-paulo-housing-prices]
-Arquivo utilizado: data.csv
+**Plataforma:** Kaggle
+
+**Dataset:** Preços de aluguéis em São Paulo
+
+**Link:** [https://www.kaggle.com/datasets/renatosn/sao-paulo-housing-prices]
+
+**Arquivo utilizado:** data.csv
 
 
 O conjunto de dados original contém 11.657 registros e oito colunas.
@@ -27,7 +31,7 @@ Importante: o link exato do Kaggle não está identificado no notebook disponibi
 
 
 
-  ### Descrição das Colunas:
+  #### Descrição das Colunas:
 
 -> address
 Endereço do imóvel
@@ -55,22 +59,32 @@ Valor total informado, incluindo aluguel e demais custos
 
 
 
-  ### Foram utilizadas as seguintes ferramentas:
-
-- **Python:** linguagem de programação utilizada na análise.
-
-- **Pandas:** leitura, organização, limpeza e agrupamento dos dados.
-
-- **NumPy:** biblioteca de apoio para operações numéricas.
-
-- **Matplotlib:** criação de gráficos para visualização dos resultados.
-
-- **Jupyter Notebook ou Google Colab:** ambiente para executar o código e apresentar a análise.
-
-- **GitHub:** plataforma sugerida para armazenar e compartilhar o projeto.
+  #### Foram utilizadas as seguintes ferramentas:
 
 
- ### Como executar de forma correta para visualizar o projeto 
+<table>
+  <tr>
+    <td>python-dateutil</td>
+    <td>numpy  </td>
+    <td>et_xmlfile</td>
+    <td>pandas</td>
+    <td>six</td>
+    <td>tzdata</td>
+    <td>openpyxl</td>
+  </tr>
+  <tr>
+    <td>3.0.0</td>
+    <td>2.5.4</td>
+    <td>2.0.0</td>
+    <td>3.1.0</td>
+    <td>1.17.0</td>
+    <td>2026.5</td>
+    <td>3.1.5</td>
+  </tr>
+</table>
+
+
+ #### Como executar de forma correta para visualizar o projeto 
 
 1. Acesse o Google Colab.
 
@@ -86,7 +100,7 @@ Para executar localmente, instale as dependências com **pip install -r requirem
 Observação: o arquivo **data.csv** deve estar no caminho indicado pelo código.
 
 
-   ### A preparação dos dados foi realizada antes dos cálculos e da criação dos gráficos:
+   #### A preparação dos dados foi realizada antes dos cálculos e da criação dos gráficos:
 
 **Carregamento:** leitura do arquivo data.csv utilizando Pandas.
 **Inspeção inicial:** verificação das colunas, quantidade de registros e tipos de dados.
@@ -103,9 +117,9 @@ As transformações foram realizadas diretamente no DataFrame utilizado pela an�
 A limpeza e preparação de dados de forma resumida foi: Verificação de valores ausentes, remoção de endereços duplicados, exclusão de imóveis com área inválida (menor ou igual a zero) e remoção de aluguéis acima de R$ 15.000. Em seguida, os dados foram organizados para calcular estatísticas, comparar bairros e analisar correlações entre as variáveis.
 
 
-   ### Principais Conclusões: 
+   #### Principais Conclusões: 
 
-1. **A diferença entre a Média e a Mediana:** O preço médio dos aluguéis foi de aproximadamente 3.028,34, enquanto a mediana foi de 2.250,00. Isso indica que os aluguéis mais elevados aumentam a média.
+1.  **A diferença entre a Média e a Mediana:** O preço médio dos aluguéis foi de aproximadamente 3.028,34, enquanto a mediana foi de 2.250,00. Isso indica que os aluguéis mais elevados aumentam a média.
 
 2. **Relação entre os alugueis com a área dos imóveis:** A correlação de aluguel com a área foi de 0,70, indicando uma relação positiva relativamente forte. Em geral, imóveis com áreas maiores tendem a apresentar aluguéis mais elevados.
 
@@ -117,7 +131,7 @@ A limpeza e preparação de dados de forma resumida foi: Verificação de valore
 
 
 
-  ### Algumas limitações da análise:
+  #### Algumas limitações da análise:
 
 1. **Ausência de informações:** O conjunto de dados não apresenta todos os fatores que podem influenciar o aluguel, como: ***estado de conservação do imóvel, mobiliário, condomínio e proximidade de serviços.***
 
@@ -136,7 +150,7 @@ Houve a utilização de IA inteligência Artificial Generativa somente para form
 
 
 
-  ### Imagens de alguns gráficos utilizados no código:
+  #### Imagens de alguns gráficos utilizados no código:
 
 <div align="center">
 <img width="600" height="456" alt="Image" src="https://github.com/user-attachments/assets/091df723-dc24-469c-bdd6-67268377be25" />
