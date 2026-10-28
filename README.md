@@ -1,17 +1,13 @@
 # SYNAPTA-PROJECT
 
-
-- Candidato: Lucas Henrique Clemente Santos
-
-- Etapa 1 do Projeto de Extensão SYNAPTA 
-
-- Linguagem: Python
+## Este projeto tem como objetivo analisar os preços de aluguéis de imóveis na cidade de São Paulo, buscando identificar características que estejam relacionadas aos valores cobrados, diferenças entre bairros e padrões presentes nos dados.
 
 
-### Este projeto tem como objetivo analisar os preços de aluguéis de imóveis na cidade de São Paulo, buscando identificar características que estejam relacionadas aos valores cobrados, diferenças entre bairros e padrões presentes nos dados.
+### - Candidato: Lucas Henrique Clemente Santos
 
+### - Etapa 1 do Projeto de Extensão SYNAPTA 
 
- Pergunta que orientou a análise: **Quais características parecem acompanhar os maiores e os menores preços de aluguel e o que os dados não permitem concluir?**
+### - Linguagem: Python
 
 
   ### O projeto utiliza um conjunto de dados sobre preços de aluguéis de imóveis em São Paulo, armazenado no arquivo data.csv:
@@ -165,3 +161,10 @@ Houve a utilização de IA inteligência Artificial Generativa somente para form
 <div align="center">
 <img width="576" height="566" alt="Image" src="https://github.com/user-attachments/assets/524079fb-82dd-4df5-846c-48e9386c87a1" />
 </div>
+
+
+
+## Pergunta que orientou a análise: 
+
+Quais fatores aparecem associados às maiores pontuações de felicidade e quais
+cuidados devem ser tomados ao interpretar essa relação?
