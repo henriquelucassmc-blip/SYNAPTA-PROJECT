@@ -54,6 +54,7 @@ Valor mensal do aluguel
 Valor total informado, incluindo aluguel e demais custos
 
 
+
   - Foram utilizadas as seguintes ferramentas:
 
 **Python:** linguagem de programação utilizada na análise.
