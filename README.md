@@ -61,7 +61,8 @@ Importante: o link exato do Kaggle não está identificado no notebook disponibi
 <table>
   <tr>
     <td>python-dateutil</td>
-    <td>numpy  </td>
+    <td>numpy</td>
+    <td>matplotlib</td>
     <td>et_xmlfile</td>
     <td>pandas</td>
     <td>six</td>
@@ -71,6 +72,7 @@ Importante: o link exato do Kaggle não está identificado no notebook disponibi
   <tr>
     <td>3.0.0</td>
     <td>2.5.4</td>
+    <td>3.10.5</td>
     <td>2.0.0</td>
     <td>3.1.0</td>
     <td>1.17.0</td>
