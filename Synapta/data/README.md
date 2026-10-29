@@ -21,7 +21,6 @@
 <img width="379" height="345" alt="Image" src="https://github.com/user-attachments/assets/d38d9e80-4bbe-4030-b067-2320af72e5a3" />
 </div>
 
-- Baixe o arquivo 'requirements.txt', utilize o comando 'pip install -r requirement.txt' para baixar as ferramentas necessárias para o funcionamento do código.
 
 - importe as bibliotecas e leia o arquivo .csv:
 
