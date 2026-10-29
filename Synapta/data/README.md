@@ -12,16 +12,13 @@
 
 - Após baixar e extrair os dados, localize o arquivo data.csv.
 
-- Coloque-o na pasta data, localizada na raiz do projeto, conforme a estrutura:
+- Vá na pasta Synapta e baixe o arquivo "Synapta_Projeto.ipynb", logo após execute-o no google colab.
 
-Synapta/
+- Faça upload do arquivo .csv no código já no colab, como na imagem abaixo:
 
-Synapta_Projeto.ipynb
 
-data/
-
-README.md
-
-data.csv
+<div align='center'>
+<img width="379" height="345" alt="Image" src="https://github.com/user-attachments/assets/d38d9e80-4bbe-4030-b067-2320af72e5a3" />
+</div>
 
 
