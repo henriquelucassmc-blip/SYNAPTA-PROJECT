@@ -9,3 +9,19 @@
 4. Se o arquivo for baixado em formato ZIP, extraia seu conteúdo.
 
 ### Importante: o endereço exato do dataset original deve ser informado aqui após sua confirmação. O nome do tema, isoladamente, não permite identificar com segurança a publicação correta no Kaggle.
+
+- Após baixar e extrair os dados, localize o arquivo data.csv.
+
+- Coloque-o na pasta data, localizada na raiz do projeto, conforme a estrutura:
+
+Synapta/
+
+Synapta_Projeto.ipynb
+
+data/
+
+README.md
+
+data.csv
+
+
