@@ -59,33 +59,6 @@ Importante: o link exato do Kaggle não está identificado no notebook disponibi
 
 
 
-  #### Foram utilizadas as seguintes ferramentas:
-
-
-<table>
-  <tr>
-    <td>python-dateutil</td>
-    <td>numpy</td>
-    <td>matplotlib</td>
-    <td>et_xmlfile</td>
-    <td>pandas</td>
-    <td>six</td>
-    <td>tzdata</td>
-    <td>openpyxl</td>
-  </tr>
-  <tr>
-    <td>3.0.0</td>
-    <td>2.5.4</td>
-    <td>3.10.5</td>
-    <td>2.0.0</td>
-    <td>3.1.0</td>
-    <td>1.17.0</td>
-    <td>2026.5</td>
-    <td>3.1.5</td>
-  </tr>
-</table>
-
-
  #### Como executar de forma correta para visualizar o projeto 
 
 1. Acesse o Google Colab.
